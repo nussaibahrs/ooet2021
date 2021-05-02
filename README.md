@@ -26,7 +26,7 @@ You will need to either use the Rstudio project environment or set your working 
 To install all required depdendencies (packages), run:
 
 ```
-source(file.path("inst","dependencies"))
+source(file.path("inst","dependencies.R"))
 ```
 
 ## Scripts
