@@ -30,7 +30,7 @@ source(file.path("inst","dependencies.R"))
 ```
 
 ## Scripts
-The `scripts/` folder contains all the code generated for the above mentioned study. The folder contains **5** R scripts and two additional folders, namely, `utils` which contains scripts for custom functions and paramters used for plotting and `supplementary` that contains additional scripts for the results in the Supplementary Online Material in the study (Available here: [ADD LINK]). The scripts are numbered in the order in which they should be run.
+The `scripts/` folder contains all the code generated for the above mentioned study. The folder contains **5** R scripts and two additional folders, namely, `utils` which contains scripts for custom functions and paramters used for plotting and `supplementary` that contains additional scripts for the results in the Supplementary Online Material in the study (Available here: https://royalsocietypublishing.org/doi/suppl/10.1098/rspb.2021.0545). The scripts are numbered in the order in which they should be run.
  
 * **01-prepare_data.R:** This script prepared the data files to be used in the analyses from the original download from the Nepture Database. It calculates the first appearance datum and last appearance datum of each species. It also categorises each occurrence into the tropics and extratropics, and calculate when dispersal from one zone to the other may have happened. 
 
